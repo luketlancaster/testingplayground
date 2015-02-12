@@ -1,0 +1,38 @@
+{
+  "name": "testingplayground",
+  "version": "1.0.0",
+  "description": "Testing sandbox for mocha, chai, and karma",
+  "main": "public/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luketlancaster/testingplayground.git"
+  },
+  "author": "luke <luketlancaster@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luketlancaster/testingplayground/issues"
+  },
+  "homepage": "https://github.com/luketlancaster/testingplayground",
+  "devDependencies": {
+    "chai": "^2.0.0",
+    "codeclimate-test-reporter": "0.0.4",
+    "karma": "^0.12.31",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-coverage": "^0.2.7",
+    "karma-coveralls": "^0.1.5",
+    "karma-firefox-launcher": "^0.1.4",
+    "karma-ie-launcher": "^0.1.5",
+    "karma-mocha": "^0.1.10",
+    "karma-opera-launcher": "^0.1.0",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-safari-launcher": "^0.1.1",
+    "karma-sauce-launcher": "^0.2.10",
+    "mocha": "^2.1.0",
+    "mocha-phantomjs": "^3.5.3",
+    "phantomjs": "^1.9.15"
+  }
+}
