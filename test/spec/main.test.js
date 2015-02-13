@@ -28,3 +28,17 @@ describe('getStock', function() {
   });
 });
 
+before (function() {
+  $('body').append('<form><input></form>');
+});
+
+
+describe('getInputValue', function() {
+  it('should return the value in the input form', function() {
+    getTableData().should.be.a('string');
+  });
+});
+
+after (function() {
+  $('form').empty();
+});

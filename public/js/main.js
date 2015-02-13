@@ -8,3 +8,8 @@ function getStock(symbol, cb) {
     return cb(res);
   }, 'jsonp');
 }
+
+function getTableData() {
+  var inputValue = $('input').val();
+  return inputValue;
+}
