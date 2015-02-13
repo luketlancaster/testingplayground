@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Testing sandbox for mocha, chai, and karma",
   "main": "public/index.html",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "test": "./node_modules/karma/bin/karma start",
     "test-once": "npm run test -- --single-run"
