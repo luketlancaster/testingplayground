@@ -7,7 +7,8 @@ before_install:
   - bower install
   - export DISPLAY=:99.0
   - sh -e /etc/init.d/xcfb start
-script: "-npm run test-once"
+script:
+  - npm run test-once
 env:
   global:
     - secure: Gt/+lKd0Bid8XcORA085NSc2e1kmqNmiGZgb4CFZGaBOxCKMJCNrkmcg08z5zEXVwZD/LjSA3D8sy535pwTvn5LkizzXUB8mbepavPOKLCdA2yEWusWG6cu09/8VfM1HyDUgnVwfFFB7umnAlSacD5vxAWSE6qvSl5BPi+VGvek=
